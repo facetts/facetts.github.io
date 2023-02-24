@@ -178,7 +178,7 @@
     </div>
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Case 1 (LRS3)</h3>
+        <h3 class="title is-4">Case 1 (Real face from LRS3 dataset)</h3>
         <div class="is-vcentered">
             <img src="./static/images/mos1.png"/>
             <p>
@@ -207,7 +207,7 @@
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Case 2 (LRS3)</h3>
+        <h3 class="title is-4">Case 2 (Real face from LRS3 dataset)</h3>
         <div class="is-vcentered">
             <img src="./static/images/mos2.png"/>
             <p>
@@ -236,7 +236,7 @@
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Case 3 (LRS3)</h3>
+        <h3 class="title is-4">Case 3 (Real face from LRS3 dataset)</h3>
         <div class="is-vcentered">
             <img src="./static/images/mos3.png"/>
             <p>
@@ -264,7 +264,7 @@
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Case 4 (LRS3)</h3>
+        <h3 class="title is-4">Case 4 (Real face from LRS3 dataset)</h3>
         <div class="is-vcentered">
             <img src="./static/images/mos4.png"/>
             <p>
@@ -293,7 +293,7 @@
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Case 1 (Virtual face brought from Stable Diffusion)</h3>
+        <h3 class="title is-4">Case 5 (Virtual face brought from Stable Diffusion)</h3>
         <div class="is-vcentered">
             <img style="width: 224px;" src="./static/images/virtual1.jpg"/>
             <p>
@@ -311,7 +311,7 @@
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h3 class="title is-4">Case 2 (Virtual face brought from Stable Diffusion)</h3>
+        <h3 class="title is-4">Case 6 (Virtual face brought from Stable Diffusion)</h3>
         <div class="is-vcentered">
             <img style="width: 224px;" src="./static/images/virtual2.jpg"/>
             <p>
@@ -344,14 +344,27 @@
 
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop content">
+    <h2 class="title is-3">Related links</h2>
+    <div class="column is-full-width">
+      <p>
+        We need <a href="https://github.com/joonson/yousaidthat">face detector</a> to align the face image into LRS3 construction.
+        The code implementation is heavily borrowed from the official implementation of <a href="https://github.com/huawei-noah/Speech-Backbones/tree/main/Grad-TTS">Grad-TTS</a>.
+        We are deeply grateful for all of the projects.
+      </p>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     If you find this work useful for your research, please cite our paper:
-    <pre><code>@article{lee2023imaginary,
+    <pre><code>@inproceedings{lee2023imaginary,
   author    = {Lee, Jiyoung and Chung, Joon Son and Chung, Soo-Whan},
   title     = {Imaginary Voice: Face-styled Diffusion Model for Text-to-Speech},
-  journal   = {arXiv},
+  booktitle = {IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
   year      = {2023},
 }</code></pre>
   </div>
